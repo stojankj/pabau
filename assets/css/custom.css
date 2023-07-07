@@ -1,0 +1,453 @@
+body{
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  color: #6F8BA4;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+}
+
+.font-exo{
+  font-family: "Exo", sans-serif;
+}
+
+h4 {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  color: #222;
+}
+
+.fs-12{
+  font-size: 1.2rem;
+}
+
+.top-bar{
+  background: #223a66;
+  font-size: 0.875rem;
+  padding: 0.6rem 0;
+  color: #fff;
+}
+
+#navbarNav .active .nav-link{
+  color: #e12454;
+}
+
+.nav-link{
+  color: black;
+  font-family: "Exo", sans-serif;
+}
+
+.navigation .dropdown-menu {
+  padding: 0px;
+  border: 0px;
+  border-top: 5px solid #e12454;
+  background: #fff;
+  border-radius: 0px;
+}
+
+input{
+  border-image: initial;
+  border-style: initial;
+}
+
+.navigation .dropdown-item {
+  padding: 13px 20px;
+  background: transparent;
+  font-weight: 400;
+  color: #555;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #e12454;
+}
+
+.pink-rect{
+  width: 2.5rem;
+  height: 0.3rem;
+  background: #e12454;
+}
+
+.img-sect{
+  position: relative;
+    overflow: hidden;
+    background: #fff;
+    background: url(../images/bg/slider-bg-1.jpg) no-repeat;
+    background-size: cover;
+    min-height: 34.375rem;
+}
+
+.img-sect .block-text{
+ padding: 5rem 0 10rem 0;
+}
+
+
+.img-sect .block-text h1{
+  font-size: 3.75rem;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+  text-transform: capitalize;
+  color: #223a66;
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+p {
+  line-height: 1.875rem;
+}
+
+.btn-prim {
+  background: #e12454;
+  color: #fff;
+  border-color: #e12454;
+}
+
+.btn-rounded{
+  border-radius: 3.125rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  padding: 0.75rem 2rem;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  transition: all .35s ease;
+}
+
+.btn.btn-icon i {
+  border-left: 1px solid rgba(255, 255, 255, 0.09);
+  padding-left: 1rem;
+}
+
+.sectwo-item {
+  flex-basis: 33.33%;
+  margin: 0px 10px;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+}
+
+.sectwo{
+  margin-top: -4.375rem;
+  position: relative;
+}
+
+.sectwo-item .sectwo-icon i {
+  font-size: 3.125rem;
+  color: #223a66;
+}
+
+.sectwo-item h4 {
+  color: #223a66;
+}
+
+.btn-sec {
+  background: #223a66;
+  color: #fff;
+  border-color: #223a66;
+}
+
+.secthree{
+  padding: 6.25rem 0;
+}
+
+.secthree-img img {
+  border-radius: .4rem;
+  box-shadow: 0px 0px 2rem 0px rgba(0, 42, 106, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #6F8BA4;  
+}
+
+.color-darkblue{
+  color: #223a66;
+}
+
+.h2{
+  font-size: 2.75rem;
+}
+
+.slika {
+  background: url(../images/bg/bg-4.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.bg-row{
+  background: rgba(34, 58, 102, 0.95);
+}
+
+.secfour {
+  text-align: center;
+  padding: 3.44rem 0px 2.5rem 0px;
+  position: relative;
+}
+
+.secfour i {
+  display: block;
+  color: rgba(255, 255, 255, 0.06);
+  font-size: 4.4rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2.6rem;
+}
+
+.secfour span {
+  font-size: 4.4rem;
+  color: #fff;
+}
+
+.p-mar-0{
+  margin: 0!important;
+}
+
+.secfour p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-lightgrey{
+  background: #f4f9fc;
+}
+
+.secfifth{
+  padding-top: 11.25rem;
+  padding-bottom: 6.25rem;
+}
+
+.marbot-neg{
+  margin-bottom: -5rem;
+}
+
+.naslov{
+  margin-bottom: 4.4rem;
+}
+
+.naslov h2{
+  color: #223a66;
+  font-size: 2.8rem;
+}
+
+.fifthsec-boxes{
+  background: #fff;
+  padding: 1.9rem;
+  border-radius: 5px;
+}
+
+.secfifth i{
+  color: #e12454;
+  font-size: 3.1rem;
+}
+
+.secfifth h4{
+  margin-left: 1.25rem;
+}
+
+.secsixth{
+  padding: 6.25rem 0;
+}
+
+.number{
+  position: absolute;
+  content: "";
+  right: 10px;
+  bottom: 20px;
+  background: #223a66;
+  padding: 3.9rem;
+}
+
+.number h2{
+  color: #fff;
+  font-size: 3.6rem;
+}
+
+.secsixth .number i {
+  margin-right: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.secsixth img{
+  width: 85%;
+}
+
+.forma {
+  margin-top: 2.5rem;
+}
+
+.form-select, .form-control{
+  height: 3.44rem;
+  border-color: rgba(0, 0, 0, 0.05);
+  background-color: #f4f9fc;
+}
+
+
+
+.fs-27{
+  font-size: 2.75rem;
+}
+
+.message-height{
+  height: auto!important;
+}
+
+.secseventh, .eighth-section{
+  padding: 6.25rem;
+}
+
+.naslov{
+  margin-bottom: 4.4rem;
+}
+
+.naslov h2{
+  color: #223a66;
+  font-size: 3.5rem;
+}
+
+.naslov p{
+  font-size: 1.1rem;
+  line-height: 2.3rem!important;
+}
+
+.blog-slika{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border: 5px solid #eff0f3;
+  margin-top: -5px;
+}
+
+.blog-section{
+  background: #fff;
+  padding: 30px;
+  margin: 0px 4px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.negative-mar{
+  margin-left: -6.063rem;
+  margin-top: 0.75rem;
+}
+
+.corner{
+  bottom: -20px;
+  color: #e12454;
+  opacity: .3;
+  font-size: 3.75rem;
+  right: 2.9rem;
+}
+
+.carousel-indicators{
+  bottom: -4.25rem;
+}
+
+.btn-1{
+  border-radius: 50%;
+  background-color: grey!important;
+  width: 7px!important;
+  height: 7px!important;
+  margin-right: 20px!important;
+}
+
+.btn-1:last-of-type {
+  margin-right: 0!important;
+}
+
+footer{
+  padding: 6.25rem 0 0.6rem 0 ;
+}
+
+.mr-4{
+  margin-right: 4rem;
+}
+
+.soc-media li a{
+  width: 2.8rem;
+  height: 2.8rem;
+  background: #6F8BA4;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+  padding-top: 0.75rem;
+  text-decoration: none;
+}
+
+.lh-22{
+  line-height: 2.2rem;
+}
+
+.subscribe{
+  position: relative;
+}
+
+.input-form {
+  border-radius: 50px;
+  height: 60px;
+  width: 100%;
+  padding-left: 25px;
+  border: 2px solid #eee;
+}
+
+.subscribe .btn {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+
+.backtop {
+  position: fixed;
+  background: #223a66;
+  display: inline-block;
+  right: 3.4rem;
+  width: 3.1rem;
+  height: 3.1rem;
+  bottom: 3.1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.backtop i {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (max-width: 768px){
+  .img-sect{
+    background: none;
+  }
+
+  .naslov h2{
+    font-size: 1.375rem;
+  }
+
+  .number{
+    padding: 2.8rem;
+  }
+
+  .number h2{
+    font-size: 3rem;
+  }
+  
+  .mq-dn{
+    display: none;
+  }
+}
